@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat', sans-serif; /*importamos a fonte do google fontes*/
+	font-family: 'Montserrat', sans-serif; 
 }
 
 header {
@@ -146,16 +146,16 @@ form label, form legend {
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
-	border: none;/* tira a borda quadrada do botao*/
-	border-radius: 5px;/*inserir a borda que queremos*/
-	transition: 1s all; /*tempo de transição de todo elemento vai demorar 1 segundo*/
-	cursor:pointer;/* faz aparecer a maozinha quando passo o mouse no elemento*/
+	border: none;
+	border-radius: 5px;
+	transition: 1s all; 
+	cursor:pointer;
 }
 
 .enviar:hover {
 	background: darkorange;
-	transform: scale(1.2); /*aumentar o elemento quando o mouse passa por cima*/
-	transform: rotate(1deg);/* faz rodar o elemento em 70 graus*/
+	transform: scale(1.2); 
+	transform: rotate(1deg);
 }
 
 table {
@@ -181,29 +181,11 @@ td, th {
 
 .titulo-principal {
 	text-align: center;
-	font-size: 2em; /* 2 em siginifica o tamanho base da fonte que neste caso e 15, então sera 30px*/
-	margin: 0 0 1em; /* desse a margin referente ao tamanho da fonte*/
-	clear: left; /*limpa o floot a esquerda para o texto ficar na linha abaixo do fim da imagem*/
-	/*color: rgba(0,0,0,0.3); usando essa teg o texto fica com opacidade podemos fazer fazer para o fundo, etc*/
-	/*text-shadow: 2px 2px #FFFF; cria sombra no titulo ou sej na palavra beneficio*/
+	font-size: 2em; 
+	margin: 0 0 1em; 
+	clear: left; 	
 }
 
-/*.titulo-principal:first-letter { /*faz a primeira letra do texto ficar em negrito
-	font-weight: bold;
-}
-
-.titulo-principal:before{ faz o colchetes vir antes dos textos
-	content: " [ ";
-}
-
-.titulo-principal:after{ faz os colchetes vir depois do texto
-	content: " ] "
-
-}
-
-p:first-line {faz as letras do paragrafo ficarem em italico
-	font-style: italic;
-}*/
 
 .principal {
 	padding: 5em 0;
@@ -215,7 +197,7 @@ p:first-line {faz as letras do paragrafo ficarem em italico
 
 .papel{
 	width: 800px;
-	margin-left: 250px;
+	margin-left: 25%;
 	padding-bottom: 20px;	
 	
 }
@@ -235,12 +217,12 @@ p:first-line {faz as letras do paragrafo ficarem em italico
 .utensilios {
 	width: 120px;
 	float: left;
-	margin: 0 20px 20px 0;/*0 pra cima, 20 pra direita, 20 pra baixo, 0 pra esquerda*/
+	margin: 0 20px 20px 0;
 }
 
 .mapa {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);/*criar o gradiente de cor*/
+	background: linear-gradient(#FEFEFE, #888888);
 	
 }
 
@@ -258,7 +240,7 @@ p:first-line {faz as letras do paragrafo ficarem em italico
 .beneficios {
 	padding: 3em 0;
 	background: #888888;
-	/*box-shadow: inset 0 0 30px #FF0000; faz uma caixa de sombra nos beneficios, otimo acessorio visual*/
+	
 
 }
 
@@ -274,22 +256,22 @@ p:first-line {faz as letras do paragrafo ficarem em italico
 }
 
 .itens {
-	line-height: 1.5; /* espaço entre o texto dos beneficios*/
+	line-height: 1.5; 
 }
 
-.itens:first-child { /*pega o primeiro item da lista e altero a fonte*/
-	font-weight: bold; /* peso da fonte do primeiro item da lista será negrito*/ 
+.itens:first-child { 
+	font-weight: bold; 
 }
 
-.itens:before { /*com essas tagas cola o caracter copiado do site para a pagina*/
+.itens:before { 
 	content: "★";
 }
 
 .imagem-beneficios {
 	width: 60%;
-	opacity: 1;/*opacidade na imagem*/
-	transition: 400ms;/*transição de segundos para a opcidade acontecer*/
-	box-shadow: 10px 10px 10px 0 #000000; /* -10px -10px yellow, -20px 20px rgba(255,0,0,0.5); adiciona uma sombra no elemento*/
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000; 
 }
 
 .imagem-beneficios:hover {
@@ -302,7 +284,7 @@ p:first-line {faz as letras do paragrafo ficarem em italico
 	margin: 2em auto;
 }
 
-@media screen and (max-width:480px) { /*criar layout responsivo*/
+@media screen and (max-width:480px) { 
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
